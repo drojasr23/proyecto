@@ -1,0 +1,18 @@
+package com.prueba.Automatizacion;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class test1 {
+	
+    System.setProperty("webdriver.chrome.driver", "./src/test/resources/chomedriver/chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(" https://git.devskiller.com/d6d45fb7-c80c-4f89-9fe7-6697c124b7ba.git");		
+	
+	
+}
